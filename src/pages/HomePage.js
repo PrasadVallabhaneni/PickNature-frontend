@@ -15,12 +15,14 @@ const {loading,error,products}=productList
     },[dispatch])
 //   const products=[]  
     return (
-      <> 
-        <h1>Choose Plants to plant</h1>
+      <>
+        <h3 style={{color:'brown', opacity:'0.7'}}>
+          Choose Plants to plant <i class="fas fa-seedling"></i>
+        </h3>
         {loading ? (
-         <Loader/>
+          <Loader />
         ) : error ? (
-          <Message variant='danger'>{error}</Message>
+          <Message variant="danger">{error}</Message>
         ) : (
           <Row>
             {products.map((product) => (

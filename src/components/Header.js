@@ -19,7 +19,8 @@ const Header = () => {
         <Container>
           <Link to="/">
             <Navbar.Brand style={{ color: "green" }}>
-              Pick Nature <i class="fab fa-canadian-maple-leaf"></i>
+              <span >Pick Nature</span>{" "}
+              <i class="fab fa-canadian-maple-leaf "></i>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
