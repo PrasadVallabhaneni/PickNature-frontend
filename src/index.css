@@ -1,0 +1,9 @@
+main{
+  min-height: 80vh;
+  padding-top: 3vh;
+/* background-color : #FBDBA4 !important; */
+
+}
+.rating span{
+  margin:1px; 
+}
